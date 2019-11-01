@@ -1,0 +1,27 @@
+D:\C#\Cshap-winform\Time Management\Time Management\bin\Debug\Time Management.exe
+D:\C#\Cshap-winform\Time Management\Time Management\bin\Debug\Time Management.pdb
+D:\C#\Cshap-winform\Time Management\Time Management\bin\Debug\Newtonsoft.Json.dll
+D:\C#\Cshap-winform\Time Management\Time Management\bin\Debug\Newtonsoft.Json.xml
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.csprojResolveAssemblyReference.cache
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time_Management.Form1.resources
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time_Management.frmNewTask.resources
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time_Management.Properties.Resources.resources
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.csproj.GenerateResource.cache
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.csproj.CoreCompileInputs.cache
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.csproj.CopyComplete
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.exe
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time Management.pdb
+D:\C#\Cshap-winform\Time Management\Time Management\obj\Debug\Time_Management.Test.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Debug\Time Management.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Debug\Time Management.pdb
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Debug\Newtonsoft.Json.dll
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Debug\Newtonsoft.Json.xml
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.csprojAssemblyReference.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time_Management.Form1.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time_Management.frmNewTask.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time_Management.Properties.Resources.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.csproj.GenerateResource.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.csproj.CoreCompileInputs.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.csproj.CopyComplete
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Debug\Time Management.pdb

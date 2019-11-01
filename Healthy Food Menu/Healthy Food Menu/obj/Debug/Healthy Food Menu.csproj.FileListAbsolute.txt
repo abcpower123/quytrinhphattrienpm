@@ -1,0 +1,16 @@
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Debug\Healthy Food Menu.exe.config
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Debug\Healthy Food Menu.exe
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Debug\Healthy Food Menu.pdb
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.BMI_cal.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.Form1.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.Properties.Resources.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy Food Menu.csproj.GenerateResource.cache
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy Food Menu.csproj.CoreCompileInputs.cache
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy Food Menu.exe
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy Food Menu.pdb
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Debug\Newtonsoft.Json.dll
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Debug\Newtonsoft.Json.xml
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.EditData.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.EditDetail.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy Food Menu.csproj.CopyComplete
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Debug\Healthy_Food_Menu.FoodGen.resources

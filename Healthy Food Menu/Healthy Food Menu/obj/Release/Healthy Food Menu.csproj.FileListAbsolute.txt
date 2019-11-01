@@ -1,0 +1,34 @@
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.exe.config
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.exe
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.pdb
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Release\Newtonsoft.Json.dll
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\bin\Release\Newtonsoft.Json.xml
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.BMI_cal.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.EditData.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.EditDetail.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.FoodGen.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.Form1.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.Properties.Resources.resources
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.GenerateResource.cache
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.CoreCompileInputs.cache
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.CopyComplete
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.exe
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.pdb
+D:\C#\Cshap-winform\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csprojResolveAssemblyReference.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.exe.config
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\bin\Release\Healthy Food Menu.pdb
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\bin\Release\Newtonsoft.Json.dll
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\bin\Release\Newtonsoft.Json.xml
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csprojAssemblyReference.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.BMI_cal.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.EditData.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.EditDetail.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.FoodGen.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.Form1.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy_Food_Menu.Properties.Resources.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.GenerateResource.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.CoreCompileInputs.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.csproj.CopyComplete
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Healthy Food Menu\Healthy Food Menu\obj\Release\Healthy Food Menu.pdb

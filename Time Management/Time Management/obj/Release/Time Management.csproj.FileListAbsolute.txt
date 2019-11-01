@@ -1,0 +1,12 @@
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Release\Time Management.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Release\Time Management.pdb
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Release\Newtonsoft.Json.dll
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\bin\Release\Newtonsoft.Json.xml
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time_Management.Form1.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time_Management.frmNewTask.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time_Management.Properties.Resources.resources
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time Management.csproj.GenerateResource.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time Management.csproj.CoreCompileInputs.cache
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time Management.csproj.CopyComplete
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time Management.exe
+D:\quanlyduanpm\quytrinhphattrienpm\Time Management\Time Management\obj\Release\Time Management.pdb
