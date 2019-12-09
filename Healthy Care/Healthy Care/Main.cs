@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Healthy_Care
 {
 
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         const int MaxNumTips = 2;
         int tipNum=1;
@@ -31,7 +31,7 @@ namespace Healthy_Care
         const int MIN_ALL = 419;
         const int MIN_ALL_UNDO = 416;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             loadALL();
@@ -207,7 +207,8 @@ namespace Healthy_Care
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Profile a = new Profile();
+            a.ShowDialog();
         }
 
         private void button8_Click(object sender, EventArgs e)

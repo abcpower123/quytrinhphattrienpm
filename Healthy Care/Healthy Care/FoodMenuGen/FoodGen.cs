@@ -267,6 +267,13 @@ namespace Healthy_Care.Healthy_Food_Menu
                 menutuan[i] = new Menu();
             }
 
+            var profile = Account.model.Account.LoadProfile();
+            if (profile != null)
+            {
+                txtCanNang.Text = profile.weight.ToString();
+                txtChieuCao.Text= profile.height.ToString();
+                textBox1.Text = profile.age.ToString();
+            }
         }
         private void genDefaultFood()
         {

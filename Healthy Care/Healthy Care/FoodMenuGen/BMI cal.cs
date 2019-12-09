@@ -61,5 +61,15 @@ namespace Healthy_Care.Healthy_Food_Menu
                 button1.PerformClick();
             }
         }
+
+        private void BMI_cal_Load(object sender, EventArgs e)
+        {
+            Account.model.Account profile = Account.model.Account.LoadProfile();
+            if (profile != null)
+            {
+                textBox1.Text = profile.height.ToString() ;
+                textBox2.Text = profile.weight.ToString();
+            }
+        }
     }
 }

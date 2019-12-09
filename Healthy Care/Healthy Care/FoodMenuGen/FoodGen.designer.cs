@@ -56,7 +56,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(70, 29);
-            this.textBox1.TabIndex = 3;
+            this.textBox1.TabIndex = 2;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label1
@@ -165,7 +165,7 @@
             this.txtCanNang.Margin = new System.Windows.Forms.Padding(4);
             this.txtCanNang.Name = "txtCanNang";
             this.txtCanNang.Size = new System.Drawing.Size(70, 29);
-            this.txtCanNang.TabIndex = 2;
+            this.txtCanNang.TabIndex = 1;
             this.txtCanNang.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // button2
@@ -193,7 +193,7 @@
             this.button3.Location = new System.Drawing.Point(667, 75);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 55);
-            this.button3.TabIndex = 7;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Xuất Excel";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);

@@ -61,7 +61,7 @@
             this.textBox1.Location = new System.Drawing.Point(121, 27);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(118, 23);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 0;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label2
@@ -82,7 +82,7 @@
             this.textBox2.Location = new System.Drawing.Point(121, 66);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(118, 23);
-            this.textBox2.TabIndex = 2;
+            this.textBox2.TabIndex = 1;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // label3
@@ -192,6 +192,7 @@
             this.MinimizeBox = false;
             this.Name = "BMI_cal";
             this.Text = "Tính BMI";
+            this.Load += new System.EventHandler(this.BMI_cal_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

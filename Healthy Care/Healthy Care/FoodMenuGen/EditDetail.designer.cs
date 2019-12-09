@@ -71,7 +71,7 @@
             this.textBox1.Location = new System.Drawing.Point(121, 35);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(169, 23);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // bindingSource1
@@ -97,7 +97,7 @@
             this.textBox2.Location = new System.Drawing.Point(137, 41);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(82, 23);
-            this.textBox2.TabIndex = 1;
+            this.textBox2.TabIndex = 0;
             // 
             // label3
             // 
@@ -118,7 +118,7 @@
             this.textBox3.Location = new System.Drawing.Point(137, 81);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(82, 23);
-            this.textBox3.TabIndex = 1;
+            this.textBox3.TabIndex = 2;
             // 
             // label4
             // 
@@ -160,7 +160,7 @@
             this.textBox5.Location = new System.Drawing.Point(432, 81);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(82, 23);
-            this.textBox5.TabIndex = 1;
+            this.textBox5.TabIndex = 3;
             // 
             // label6
             // 
@@ -184,7 +184,7 @@
             this.comboBox1.Location = new System.Drawing.Point(531, 37);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 2;
+            this.comboBox1.TabIndex = 1;
             // 
             // groupBox1
             // 
@@ -275,7 +275,7 @@
             this.button2.Location = new System.Drawing.Point(440, 267);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 45);
-            this.button2.TabIndex = 4;
+            this.button2.TabIndex = 6;
             this.button2.Text = "Hủy";
             this.button2.UseVisualStyleBackColor = false;
             // 

@@ -50,26 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\AccountApp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Account\AccountApp.Designer.cs">
-      <DependentUpon>AccountApp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Account\GetData.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Account\GetData.Designer.cs">
-      <DependentUpon>GetData.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Account\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="Account\model\Account.cs" />
-    <Compile Include="Account\model\AccountData.cs" />
     <Compile Include="Application Setting\ApplicationSetting.cs" />
     <Compile Include="EyeCare.cs">
       <SubType>Form</SubType>
@@ -102,11 +83,11 @@
     <Compile Include="FoodMenuGen\FoodGen.designer.cs">
       <DependentUpon>FoodGen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="FoodMenuGen\MainFoodMenu.cs">
       <SubType>Form</SubType>
@@ -158,15 +139,6 @@
     <Compile Include="FoodMenuGen\WaterS.Designer.cs">
       <DependentUpon>WaterS.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Account\AccountApp.resx">
-      <DependentUpon>AccountApp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Account\GetData.resx">
-      <DependentUpon>GetData.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Account\Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EyeCare.resx">
       <DependentUpon>EyeCare.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,8 +154,8 @@
     <EmbeddedResource Include="FoodMenuGen\FoodGen.resx">
       <DependentUpon>FoodGen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoodMenuGen\MainFoodMenu.resx">
       <DependentUpon>MainFoodMenu.cs</DependentUpon>
