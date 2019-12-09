@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C55FC07F-2C2E-4E40-8203-B954E16D6645}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Healthy_Care</RootNamespace>
+    <AssemblyName>Healthy Care</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hnet.com-image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AccountApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\AccountApp.Designer.cs">
+      <DependentUpon>AccountApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\GetData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\GetData.Designer.cs">
+      <DependentUpon>GetData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\model\Account.cs" />
+    <Compile Include="Account\model\AccountData.cs" />
+    <Compile Include="Application Setting\ApplicationSetting.cs" />
+    <Compile Include="EyeCare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EyeCare.Designer.cs">
+      <DependentUpon>EyeCare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\BMI cal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\BMI cal.designer.cs">
+      <DependentUpon>BMI cal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\EditData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\EditData.designer.cs">
+      <DependentUpon>EditData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\EditDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\EditDetail.designer.cs">
+      <DependentUpon>EditDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\model\Food.cs" />
+    <Compile Include="FoodMenuGen\FoodGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\FoodGen.designer.cs">
+      <DependentUpon>FoodGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\MainFoodMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\MainFoodMenu.designer.cs">
+      <DependentUpon>MainFoodMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenuGen\model\Menu.cs" />
+    <Compile Include="FoodMenuGen\model\MenuItem.cs" />
+    <Compile Include="Healthy Sleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Healthy Sleep.Designer.cs">
+      <DependentUpon>Healthy Sleep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Setting\NotiStatus.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Application Setting\SettingApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Setting\SettingApp.Designer.cs">
+      <DependentUpon>SettingApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoList\model\Appsetting.cs" />
+    <Compile Include="ToDoList\model\Cons.cs" />
+    <Compile Include="ToDoList\MainTodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToDoList\MainTodo.designer.cs">
+      <DependentUpon>MainTodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoList\frmNewTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToDoList\frmNewTask.designer.cs">
+      <DependentUpon>frmNewTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoList\model\Work.cs" />
+    <Compile Include="FoodMenuGen\WaterS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodMenuGen\WaterS.Designer.cs">
+      <DependentUpon>WaterS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account\AccountApp.resx">
+      <DependentUpon>AccountApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\GetData.resx">
+      <DependentUpon>GetData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EyeCare.resx">
+      <DependentUpon>EyeCare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\BMI cal.resx">
+      <DependentUpon>BMI cal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\EditData.resx">
+      <DependentUpon>EditData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\EditDetail.resx">
+      <DependentUpon>EditDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\FoodGen.resx">
+      <DependentUpon>FoodGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\MainFoodMenu.resx">
+      <DependentUpon>MainFoodMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Healthy Sleep.resx">
+      <DependentUpon>Healthy Sleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Application Setting\SettingApp.resx">
+      <DependentUpon>SettingApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToDoList\MainTodo.resx">
+      <DependentUpon>MainTodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToDoList\frmNewTask.resx">
+      <DependentUpon>frmNewTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodMenuGen\WaterS.resx">
+      <DependentUpon>WaterS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_next_89675.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Next-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\important.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meeting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sáng-kiến.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sự-kiện-ưa-thích.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_next_89675.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-80.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\87274269-have-a-break-time-vector-illustration-business-and-education-cartoon-concept-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breaktime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59148569-tired-and-bored-man-is-working-with-computer-flat-fun-illustration-of-tired-student-studying-or-work.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinking-water-icon-png-drinking-water-computer-ic-01750434f03f4fe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMGBIN_glass-drinking-water-computer-icons-drop-png_nKAHNysd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m42ucv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\204-2049899_collapse-roll-up-window-minimize-micro-ui-element.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9f1d4f36893c87a7393a707c3ab230c7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9f1d4f36893c87a7393a707c3ab230c71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_ihI_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hnet.com-image.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

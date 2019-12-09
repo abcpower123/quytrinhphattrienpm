@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Healthy_Food_Menu
 {
-    public partial class Form1 : Form
+    public partial class FmMainFoodMenu : Form
     {
-        public Form1()
+        public FmMainFoodMenu()
         {
             InitializeComponent();
         }
